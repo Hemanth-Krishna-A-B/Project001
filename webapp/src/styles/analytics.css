@@ -1,0 +1,101 @@
+.analytics-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; /* Ensures alignment in case of uneven heights */
+}
+
+.analytics-box {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+.analytics-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.analytics-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.expand-icon {
+  font-size: 1.2rem;
+}
+
+.analytics-details {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.analytics-details ul {
+  margin: 10px 0;
+}
+
+.students-list {
+  margin-top: 10px;
+}.students-list-box {
+  width: 100%; /* Make it full width */
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.students-list-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.students-list {
+  margin-top: 10px;
+}
+
+.students-list h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.students-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.students-list li {
+  padding: 5px;
+}
+
+
+.expand-icon {
+  font-size: 1.2rem;
+}
+
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .analytics-box {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .analytics-container {
+    flex-direction: column; /* Stack columns on very small screens */
+  }
+
+  .analytics-box {
+    width: 100%;
+  }
+}
