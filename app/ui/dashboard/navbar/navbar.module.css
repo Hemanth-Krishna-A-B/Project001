@@ -1,0 +1,43 @@
+.container {
+    width: calc(100% - 250px); /* Adjust based on sidebar width */
+    position: fixed;
+    top: 0;
+    left: 250px; /* Prevents overlap */
+    height: 60px;
+    background-color: var(--bgNav);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push menu to the right */
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

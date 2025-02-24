@@ -1,0 +1,16 @@
+.container{
+    position: sticky;
+    top: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s ease;
+    
+}
+
+.container:hover{
+    background-color: var(--bgSoft);
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.062);
+}

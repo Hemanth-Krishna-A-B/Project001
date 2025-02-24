@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+
+
+    height: 100vh;
+
+}
+
+.menu{
+    flex:1;
+    padding: 20px;
+}
+
+.content{
+    flex:4;
+    
+}
