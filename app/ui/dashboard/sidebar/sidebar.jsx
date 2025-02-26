@@ -13,27 +13,27 @@ const menuItems = [
         list: [
             {
                 title: "Presentations",
-                path: "/presentation",
+                path: "/dashboard/presentations",
                 icon: <HiOutlinePresentationChartBar />,
             },
             {
                 title: "Questions",
-                path: "/questions",
+                path: "/dashboard/questions",
                 icon: <MdAssignmentAdd />,
             },
             {
                 title: "Reports",
-                path: "/reports",
+                path: "/dashboard/reports",
                 icon: <HiOutlineDocumentReport />,
             },
             {
                 title: "Database",
-                path: "/myfiles",
+                path: "/dashboard/myfiles",
                 icon: <BsDatabaseCheck />,
             },
             {
                 title: "Active Users",
-                path: "/active-users",
+                path: "/dashboard/users",
                 icon: <FaUsers />,
             },
             {

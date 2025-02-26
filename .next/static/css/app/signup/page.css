@@ -1,0 +1,63 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/signup/signup.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.signup_container__VHxSu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.signup_form__Y53Ho {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.signup_title__f_fv7 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.signup_input__nIvFN {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup_submit__QyMbr {
+  width: 100%;
+  padding: 10px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.signup_signupText___4WDh {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.signup_link__AMOYU {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup_link__AMOYU:hover {
+  text-decoration: underline;
+}
+
