@@ -1,7 +1,7 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/login/login.module.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
-.login_container__dKYZP {
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/ui/login/login.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.login_container__js8X_ {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@
   background-color: #f4f4f4;
 }
 
-.login_form__Ij6Df {
+.login_form__k1kAj {
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -19,12 +19,12 @@
   text-align: center;
 }
 
-.login_title__7huBn {
+.login_title__kZVyQ {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
-.login_input__Y4JR4 {
+.login_input__XCgQP {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -32,7 +32,7 @@
   border-radius: 5px;
 }
 
-.login_submit__ajKqa {
+.login_submit__WCpgS {
   width: 100%;
   padding: 10px;
   background: #0070f3;
@@ -43,7 +43,7 @@
   margin-top: 10px;
 }
 
-.login_reset__xOuIE {
+.login_reset__MUMKb {
   width: 100%;
   padding: 10px;
   background: #ff4d4d;
@@ -55,14 +55,14 @@
 }
 
 
-.login_presentation__OG8TU {
+.login_presentation__KIrRj {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 15px;
 }
 
-.login_getPresentation__z41eI {
+.login_getPresentation__h8XtN {
   width: 100%;
   padding: 10px;
   background: #00cc66;
@@ -74,20 +74,20 @@
 }
 
 
-.login_signupText__Ko7hM {
+.login_signupText__p7nkn {
   margin-top: 15px;
   font-size: 14px;
   color: #555;
 }
 
 
-.login_link__xjylW {
+.login_link__rdYSx {
   color: #0070f3;
   text-decoration: none;
   font-weight: bold;
 }
 
-.login_link__xjylW:hover {
+.login_link__rdYSx:hover {
   text-decoration: underline;
 }
 
